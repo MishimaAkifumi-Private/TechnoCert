@@ -23,7 +23,7 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform?usp=sf_link">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">ビジネスモデル<br>システム化支援サービス</h1>
                     <p>システムビジネスモデリングパートナー</p>
-                    <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform">Call to Action!</a>
+                    <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform?usp=sf_link">Call to Action!</a>
                 </div>
             </div>
             <!-- Call to Action-->
