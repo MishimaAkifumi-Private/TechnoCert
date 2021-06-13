@@ -9,9 +9,9 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?php echo get_template_directory_uri(); ?>/css/styles.css" rel="stylesheet" />
+        <link href="http://localhost/TechnoCert/wp-content/themes/TechnoCert/css/styles.css" rel="stylesheet" />
     </head>
-    <?php wp_head(); ?>
+    <!-- <?php wp_head(); ?> -->
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,7 +32,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="<?php echo get_template_directory_uri(); ?>/img/image.png" alt="..." /></div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="http://localhost/TechnoCert/wp-content/themes/TechnoCert/img/image.png" alt="..." /></div>
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">ビジネスモデルのシステム化支援サービス</h1>
                     <p>システムビジネスパートナー</p>
@@ -72,7 +72,8 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
-        <?php wp_footer();?>
+        <!-- <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> -->
+        <script src="http://localhost/TechnoCert/wp-content/themes/TechnoCert/js/scripts.js"></script>
+        <!-- <?php wp_footer();?> -->
     </body>
 </html>
