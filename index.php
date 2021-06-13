@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content="This is official My Home page" />
         <meta name="author" content="" />
         <title>TechnoCert</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="http://localhost/TechnoCert/wp-content/themes/TechnoCert/css/styles.css" rel="stylesheet" />
+        <link href="<?php echo get_template_directory_uri(); ?>/css/styles.css" rel="stylesheet" />
     </head>
     <!-- <?php wp_head(); ?> -->
     <body>
@@ -22,8 +22,8 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,16 +32,16 @@
         <div class="container px-4 px-lg-5">
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="http://localhost/TechnoCert/wp-content/themes/TechnoCert/img/image.png" alt="..." /></div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="<?php echo get_template_directory_uri(); ?>/img/image.png" alt="..." /></div>
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">ビジネスモデル<br>システム化支援サービス</h1>
                     <p>システムビジネスモデリングパートナー</p>
-                    <a class="btn btn-primary" href="#!">Call to Action!</a>
+                    <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfPlGtRKPOYGJSmRDpXtc25RXeIW9rnEneUAW8gvloQKHblJQ/viewform">Call to Action!</a>
                 </div>
             </div>
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="h4 text-white m-0">デジタル化やIT技術との連携によるサービスやビジネスモデルの変革を、情報システムとして具現化するお手伝をします。</p></div>
+                <div class="card-body"><p class="h4 text-white m-0">デジタル化やIT技術との連携によるサービスやビジネスモデルの変革を、情報システムとして具現化するお手伝いをします!</p></div>
             </div>
             <!-- Content Row-->
             <div class="row gx-4 gx-lg-5">
@@ -58,7 +58,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">（1➡10）プロジェクトマネジメント</h2>
-                            <p class="card-text">システム設計におけるプロジェクト計画策定、要求要件管理、および進捗管理を通じてプロジェクト成功率向上に寄与します。</p>
+                            <p class="card-text">システム設計におけるプロジェクト計画策定、要求要件管理、および進捗管理を通じてプロジェクトの成功率向上に寄与します。</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
                     </div>
@@ -72,8 +72,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <!-- <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> -->
-        <script src="http://localhost/TechnoCert/wp-content/themes/TechnoCert/js/scripts.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
         <!-- <?php wp_footer();?> -->
     </body>
 </html>
